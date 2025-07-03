@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="main.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-dark-nadvar-dark">
+        <div class="container">
+            <a class="firebase" href="#">Mi App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class=" salidas"
+                            style="padding-top: 20px; color: black;  font-size:20px; text-decoration: none;" href="#"
+                            data-bs-toggle="modal" data-bs-target="#iniciomodal">Iniciar Sesion</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class=" salidas" style="padding: 20px; color: black; font-size:20px; text-decoration: none;"
+                            href="#" data-bs-toggle="modal" data-bs-target="#registmodal">Registrate</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a id="afuera" class="ingreso"
+                            style="padding-top: 20px;   color: black; font-size:20px; text-decoration: none;"
+                            href="#">Ciera sesion</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Modal inicio -->
+    <div class="modal fade" id="iniciomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h1 style="color: white;" class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
+                    <button type="button" class="btn-close btn-close-white " data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="inicioform">
+                        <label for="correo">Correo:</label>
+                        <input type="text" id="correoI" class="form-control" id="correo"
+                            placeholder="Ingrese su correo">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="text" id="contraseñaI" class="form-control" id="contraseña"
+                            placeholder="**************">
+                        <button type="submit" class="btn btn-primary mt-3">
+                            login
+                        </button>
+
+
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal final -->
+    <div class="modal fade" id="registmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h1 style="color: white;" class="modal-title fs-5" id="exampleModalLabel">Registrate</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="regisform">
+                        <label for="correoR">Correo:</label>
+                        <input type="text" id="correoR" class="form-control" placeholder="Ingrese su correo">
+                        <label for="contraseñaR">Contraseña</label>
+                        <input type="password" id="contraseñaR" class="form-control" placeholder="**************">
+                        <button type="submit" class="btn btn-primary mt-3">
+                            Registrate
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form id="sesion"></form>
+    <label for="email">Correo</label>
+    <input type="email" id="email" class="form-control  mb-3" placeholder="Ingrese su correo">
+    <label for="password">Contrasseña</label>
+    <input type="password" id="password" class="form-control mb-3" placeholder="**************">
+    <button type="submit" class="btn btn-primary"> Login</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</header>
+
+<body>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</html>

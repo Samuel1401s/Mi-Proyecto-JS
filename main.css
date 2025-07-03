@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(168, 168, 168);
+    color: rgb(10, 10, 10);
+    margin: -1px;
+}
+header{
+    background-color: #918d8d;
+    color: #fff;
+    padding: 12px;
+    color: black;
+    max-width: 100%;
+    
+}
+title{
+    font-size: 20px;
+    color: black;
+}
+.firebase{
+    font-size: 25px;
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+    
+}
