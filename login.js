@@ -11,13 +11,9 @@ const firebaseConfig = {
   appId: "842393929614",
   measurementId: "842393929614"
 };
-
-// Inicializar Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const analytics = getAnalytics(app);
-
-// Función para iniciar sesión con Google
 function signInWithGoogle() {
   const provider = new GoogleAuthProvider();
   signInWithPopup(auth, provider)
